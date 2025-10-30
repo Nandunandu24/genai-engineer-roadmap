@@ -1,2 +1,5 @@
-# genai-engineer-roadmap
-My journey and projects from beginner to advanced GenAI Engineer (DL, LLMs, MLOps)
+## Day 1 - Setup
+- Virtualenv: `.venv`
+- Run hello: `python hello.py`
+- Run API: `uvicorn api.main:app --reload`
+- Run tests: `pytest -q`
