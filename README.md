@@ -1,36 +1,37 @@
-<<<<<<< HEAD
-=======
-# genai-engineer-roadmap
-My journey and projects from beginner to advanced GenAI Engineer (DL, LLMs, MLOps)
+# 🎥 YouTube & PDF Summarizer (AI Powered)
 
->>>>>>> 77b7c7c09de666bb8c2e2831a50eeefd11b1fe21
-## Day 1 - Setup
-- Virtualenv: `.venv`
-- Run hello: `python hello.py`
-- Run API: `uvicorn api.main:app --reload`
-- Run tests: `pytest -q`
+A full-stack AI application that:
+- Downloads YouTube audio using `yt-dlp`
+- Transcribes videos using Whisper (local Whisper or OpenAI Whisper)
+- Summarizes long videos using embeddings + FAISS + RAG
+- Supports PDF summarization
+- Provides a clean UI (React + Vercel)
+- Backend deployed on Railway (FastAPI)
 
-<<<<<<< HEAD
-# Day 2 – AI Note Summarizer Project
-=======
-# 🚀 Day 2 – AI Note Summarizer Project
->>>>>>> 77b7c7c09de666bb8c2e2831a50eeefd11b1fe21
+---
 
-### 📘 Overview
-Continued building the **AI Note Summarizer** application.  
-Focused on backend setup and project structure.
+## 🚀 Live Demo
 
-<<<<<<< HEAD
-###  Work Done Today
-=======
-### 🧩 Work Done Today
->>>>>>> 77b7c7c09de666bb8c2e2831a50eeefd11b1fe21
-- Created folder structure (`api`, `worker`, `streamlit_app`, `services`, `tests`, `docker`)
-- Added `hello.py` for testing imports
-- Fixed import issues (`no module named hello`)
-- Created and updated `.gitignore`
-- Set up initial repository and pushed code to GitHub
-<<<<<<< HEAD
-=======
+### 🔹 Frontend (Vercel)
+👉 https://your-frontend-url.vercel.app
 
->>>>>>> 77b7c7c09de666bb8c2e2831a50eeefd11b1fe21
+### 🔹 Backend (Railway)
+👉 https://your-backend-url.up.railway.app  
+👉 API Docs: `/docs`
+
+---
+
+## 🧠 Features
+
+- 🎧 **YouTube audio transcription (Whisper)**
+- 📄 **PDF summarization**
+- 🧩 **Vector search using FAISS**
+- 🤖 **RAG Question Answering**
+- ⚛️ **Frontend built in React + Vite**
+- 🚀 **FastAPI backend**
+- ☁️ **Deployed on Vercel + Railway**
+
+---
+
+## 🗂️ Project Structure
+
